@@ -1,0 +1,7 @@
+.runtime/
+.data/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.link-to-mp4-*/
