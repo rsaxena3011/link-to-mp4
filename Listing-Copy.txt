@@ -1,0 +1,120 @@
+LINK TO MP4 - FREE LAUNCH COPY
+
+PRODUCT NAME
+Link to MP4
+
+TAGLINE
+Paste a link. Save the video.
+
+SHORT DESCRIPTION
+A free local video downloader with a clean browser interface. Queue video links, choose your quality, and save MP4 files directly to a folder on your computer. One-time Python helper setup required.
+
+FULL PRODUCT DESCRIPTION
+Your videos. Your folder.
+
+Link to MP4 makes downloading videos you own or have permission to save a simple, local workflow. Paste a public video link, choose an output option, and follow the progress in one clear queue. Finished MP4 files go straight into the folder you choose.
+
+Use Preserve quality to keep the available streams without re-encoding, or choose Compatible MP4 for H.264 video and AAC audio when conversion is needed. Pick Best available or set a maximum height. Add one video at a time or paste a batch of links.
+
+WHAT YOU GET
+• A browser interface with a local Python helper
+• Windows, macOS and Linux start scripts
+• Best-available quality or height limits up to 2160p
+• Preserve-quality and compatible MP4 output options
+• Queue progress, speed and ETA when reported by the source
+• Pause-next, cancel, retry and finished-file history
+• Direct saving to your chosen folder
+• Existing-file protection with numbered repeat filenames
+• An engine update button and clear error messages
+• Editable source, setup guide, license and launch artwork
+
+FREE, WITH ALL FEATURES INCLUDED
+No subscription, paid tier, app account or API key. Internet is needed for setup and video downloads. The helper stays on your computer.
+
+BEFORE YOU DOWNLOAD
+Requires a desktop computer. On Windows, the launcher installs Python automatically if it is missing (one-time, needs internet, no administrator access). On Mac and Linux, Python 3.10+ is needed. First setup downloads the media tools and a JavaScript runtime if needed. This is a local browser app; opening the HTML alone or hosting it on GitHub Pages does not run the downloader.
+
+The yt-dlp engine includes integrations for YouTube, Instagram, Facebook, Vimeo, TikTok, Pinterest and many more sites. Availability varies by link and can change. Private, login-gated, region-restricted, blocked or DRM-protected content may not work. This version does not sign in, import cookies, expand playlists or download live streams.
+
+“Best available” means the streams the platform exposes, not a promise of the original uploaded file. Compatible conversion can change quality. Use only videos you own or have permission to download.
+
+PRICE
+Free. No paid edition.
+
+GITHUB ABOUT
+Free local video downloader: browser UI + Python helper, yt-dlp and FFmpeg. Queue links, choose quality, and save MP4 files directly to your computer.
+
+SUGGESTED REPOSITORY NAME
+link-to-mp4
+
+SUGGESTED TOPICS
+video-downloader, mp4, yt-dlp, ffmpeg, python, local-first, free-software
+
+RELEASE TITLE
+Link to MP4 v1.0.1 - automatic Python setup
+
+RELEASE NOTES
+Update: the Windows launcher now sets up Python for you. It finds a real Python 3.10+ automatically and, if none is installed, installs Python 3.12 for your user account (through winget, or with the official python.org installer), then starts the app. The Microsoft Store Python placeholder that could block the first launch in v1.0.0 is detected and ignored. The downloader itself is unchanged: a simple browser interface to a local download queue with direct folder saving, quality limits, two MP4 output modes, progress, cancellation, retries, local history and an engine updater. Mac and Linux still need Python 3.10+ installed first. Tested with generated media in Linux, and the Windows launcher was verified on a real Windows PC; live platform availability has not been verified here.
+
+SHORT LAUNCH POST
+Meet Link to MP4: a free tool for saving videos you own or are allowed to download.
+
+Paste a link → choose your quality → save an MP4 to your own folder.
+
+It has a clean browser interface, a local helper, and a simple download queue. No app account or subscription. On Windows it installs Python for you; site availability varies.
+
+Download the free project from the link in this post.
+
+LONGER LAUNCH POST
+I wanted a video downloader that keeps the experience simple: paste the link, choose a folder, see what's happening.
+
+So I built Link to MP4.
+
+It runs through a local helper and opens in your browser. You can queue several links, choose the best available quality or set a limit, and save MP4 files directly to your computer. Preserve quality copies the available streams; Compatible MP4 converts to H.264/AAC when needed.
+
+The project is free, with editable source and all features included. On Windows it installs Python for you if needed, then does a one-time setup. Support depends on what each website makes available-there is no promise that every link works or that an original upload is accessible.
+
+For your own videos and content you have permission to download.
+
+FAQ
+
+Is it really free?
+Yes. All app features are included. There is no paid tier or subscription.
+
+Does it work as a single HTML file?
+The interface is HTML, but cross-site downloading and MP4 processing require the included local Python helper. Start the app with the launcher.
+
+Do my videos pass through your server?
+There is no app download/upload server. Your computer requests the video from its source and saves it to your selected folder.
+
+Can it download from absolutely any site?
+No. yt-dlp supports many sites, but individual links can be blocked, restricted or unsupported. Sites can also change how they work.
+
+Will I get the original uploaded quality?
+Not necessarily. The app downloads the best matching streams the site exposes. Those are often processed versions of the original upload. Preserve quality avoids an extra re-encode when MP4 packing is possible.
+
+Can I choose another drive?
+Yes. Choose a writable destination folder or enter its full path. Files save directly there.
+
+Does it overwrite videos?
+No. If a filename already exists, it adds a number to the new file.
+
+Does cancel support resuming halfway?
+No. Cancel removes job-specific temporary files. Retry starts a fresh download. Pause queue holds the next jobs while the current one finishes.
+
+What if a site stops working?
+Try the video's own page link and update the download engine from Help. Login, DRM, region and access restrictions may still prevent downloads.
+
+ARTWORK GUIDE
+Banner-Horizontal.png - landscape cover / wide feed post
+Banner-Vertical.png - portrait promotion / story-style placement
+Banner-Square.png - square thumbnail / social post
+Product-Image.png - feature overview
+Image-Prompts.txt - original generation briefs
+The artwork is promotional illustration, not an interface screenshot. Check platform cropping in its upload preview.
+
+UPLOAD PACKAGE
+Attach LinkToMP4-Complete-Package.zip as the free downloadable product. For GitHub, place the extracted project contents at the repository root and attach the ZIP to a release. Keep generated .runtime, .data and your downloaded videos out of public uploads.
+
+NO AFFILIATION
+Link to MP4 is independent and is not affiliated with YouTube, Meta, Vimeo, TikTok, Pinterest, yt-dlp or the other named projects. Names identify compatibility integrations only.

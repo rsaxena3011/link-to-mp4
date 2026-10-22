@@ -33,7 +33,7 @@ import webbrowser
 import zipfile
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 APP = Path(__file__).resolve().parent
 ROOT = APP.parent
 RUNTIME = ROOT / ".runtime"

@@ -9,11 +9,11 @@ Start with **Start-Windows.cmd** on Windows. You do not need to open the App fol
 ## First-time setup
 
 1. **Extract the whole ZIP** into a normal, writable folder, such as `Documents/LinkToMP4`. Do not run it inside the ZIP, in Program Files, or from a temporary preview.
-2. Install **Python 3.10 or newer** if you do not already have it. Python 3.12 is a suitable choice. Official installers: <https://www.python.org/downloads/>. On Windows, select **Add Python to PATH** if the installer offers it, then close and reopen the launcher.
+2. On **Windows**, you can skip this step: the launcher installs Python for you automatically if it is missing. On **Mac and Linux**, install **Python 3.10 or newer** if you do not already have it. Python 3.12 is a suitable choice. Official installers: <https://www.python.org/downloads/>.
 3. Run the launcher for your computer. The first start creates a private environment in this app folder and downloads yt-dlp, FFmpeg and, when needed, Deno. This needs internet and can take a few minutes. Keep the console window open.
 4. Your browser opens automatically. Look for **Helper connected** in the top right. If it does not open, copy the full local address printed in the console, including the part after `#`.
 
-**Windows 10/11, 64-bit:** double-click `Start-Windows.cmd`. If Windows uses a Store placeholder instead of an installed Python, install Python from the official link above. If an existing Python is too old, install a newer version. The app does not require administrator access.
+**Windows 10/11, 64-bit:** double-click `Start-Windows.cmd`. If Python 3.10 or newer is not installed, the launcher installs Python 3.12 for your user account automatically (through winget, or with the official python.org installer) and then starts the app. The Microsoft Store Python placeholder is detected and ignored, and an existing Python older than 3.10 is replaced by the newer install. The app does not require administrator access.
 
 **macOS:** install Python from python.org, then open `Start-Mac.command`. If it is not executable, open Terminal in this folder and run `sh Start-Mac.command`. If Python reports a certificate error, run the **Install Certificates.command** supplied with the python.org installation. Do not disable certificate verification.
 
@@ -120,7 +120,7 @@ Do not publish your generated `.runtime`, `.data`, downloaded videos, or local s
 
 Validated in Linux with Python 3.12, yt-dlp 2026.8.19, imageio-ffmpeg 0.6.0 and Node 24. Tests use generated media owned by this project. Real downloads from a local HTTP fixture, separate audio/video merging, MP4 remuxing, H.264/AAC conversion, file collision handling, queue APIs, restart recovery, session/origin checks and UI logic were exercised. Preserve-quality output was checked with video-packet hashes.
 
-A clean first-start installation and authenticated helper startup/shutdown also passed. There were 18 backend/media checks and 6 interface logic checks. The HTML layout and help controls were inspected in Chrome, including a narrow layout with clearly labeled sample queue data. Browser-to-helper integration was covered by API and UI checks separately; the managed browser preview could not run the Python environment. Live downloads from the six named social platforms, native Windows/macOS setup and native folder dialogs have not been verified in this environment. Site availability is determined when a real link is tried; no universal-support claim is made.
+A clean first-start installation and authenticated helper startup/shutdown also passed. There were 18 backend/media checks and 6 interface logic checks. The HTML layout and help controls were inspected in Chrome, including a narrow layout with clearly labeled sample queue data. Browser-to-helper integration was covered by API and UI checks separately; the managed browser preview could not run the Python environment. Live downloads from the six named social platforms, native macOS setup and native folder dialogs have not been verified in this environment. The Windows launcher and its automatic Python installation were verified on a real Windows PC: the Microsoft Store placeholder is ignored, Python installs per-user with winget when missing, the private environment is created, and the helper starts and shuts down cleanly. Site availability is determined when a real link is tried; no universal-support claim is made.
 
 ## Components and references
 
