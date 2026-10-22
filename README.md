@@ -2,6 +2,8 @@
 
 **Paste a link. Save the video.** A free browser interface with a small local Python helper. Videos go straight to a folder on your computer.
 
+![Link to MP4 - Paste a link. Save the video.](Images/Banner-Horizontal.png)
+
 Start with **Start-Windows.cmd** on Windows. You do not need to open the App folder.
 
 ## First-time setup
